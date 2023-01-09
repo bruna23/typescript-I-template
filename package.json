@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "**Vamos utilizar esse repositório para as práticas da aula!**",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start-frota": "tsc && node ./build/tipando/index.js",
     "start-ex-1": "tsc && node ./build/fixacao/exercicio1/index.js",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/labenuexercicios/typescript-I-template#readme",
   "devDependencies": {
+    "@types/node": "^18.11.18",
     "typescript": "^4.9.4"
   }
 }
